@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuHitungBDTR">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/menu_htng"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_Mnghtg_Psg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_psg"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_Mnghtg_lngkrn"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_lng"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_Mnghtg_PsgPjg"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_psg_pjg"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_Mnghtg_Sgtg"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_sgtg"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_Mnghtg_Trpsm"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_trpsm"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

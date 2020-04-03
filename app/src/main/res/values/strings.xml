@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Exercise Menu - 20180140096</string>
+    <string name="labelapp">LOGIN USER</string>
+    <string name="uname">Username</string>
+    <string name="passw">Password</string>
+    <string name="bttn">Sign-In</string>
+    <string name="mkn_pass">Masukan Password</string>
+    <string name="mkn_Usrn">Masukan Username</string>
+
+
+    <string name="menu_htng">Menu Hitung Bangun Datar</string>
+    <string name="m_psg">Menghitung Persegi</string>
+    <string name="m_lng">Menghitung Lingkaran</string>
+    <string name="m_psg_pjg">Menghitung Persegi Panjang</string>
+    <string name="m_sgtg">Menghitung Segitiga</string>
+    <string name="m_trpsm">Menghitung Trapesium</string>
+
+
+    <string name="h_luas">Hitung Luas</string>
+    <string name="h_kellng">Hitung Keliling</string>
+    <string name="htg_luas">HITUNG LUAS</string>
+
+    <string name="luasPsg">Luas Persegi</string>
+    <string name="msknSisi">Masukkan Sisi : </string>
+
+    <string name="hsl">hasil</string>
+
+    <string name="klilingPsg">Keliling Persegi</string>
+    <string name="htg_kliling">HITUNG KELILING</string>
+
+
+</resources>
