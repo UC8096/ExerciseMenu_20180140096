@@ -98,8 +98,15 @@ public class MenuHitungBDTR extends AppCompatActivity {
                 Toast.makeText(MenuHitungBDTR.this, item.getTitle(), Toast.LENGTH_SHORT).show();
                 switch (item.getItemId()) {
                     case R.id.htg_luas_item:
+
+                        Intent i = new Intent(getApplicationContext(), LuasLingkrn.class);
+
+                        startActivity(i);
                         return true;
                     case R.id.htg_kelling_item:
+                        Intent ii = new Intent(getApplicationContext(), KelilingLingkrn.class);
+
+                        startActivity(ii);
                         return true;
                     default:
                         return false;
@@ -118,8 +125,16 @@ public class MenuHitungBDTR extends AppCompatActivity {
                 Toast.makeText(MenuHitungBDTR.this, item.getTitle(), Toast.LENGTH_SHORT).show();
                 switch (item.getItemId()) {
                     case R.id.htg_luas_item:
+
+                        Intent i = new Intent(getApplicationContext(), LuasPsgPjg.class);
+
+                        startActivity(i);
                         return true;
                     case R.id.htg_kelling_item:
+
+                        Intent ii = new Intent(getApplicationContext(), KelilingPsgPjg.class);
+
+                        startActivity(ii);
                         return true;
                     default:
                         return false;
@@ -138,8 +153,16 @@ public class MenuHitungBDTR extends AppCompatActivity {
                 Toast.makeText(MenuHitungBDTR.this, item.getTitle(), Toast.LENGTH_SHORT).show();
                 switch (item.getItemId()) {
                     case R.id.htg_luas_item:
+
+                        Intent i = new Intent(getApplicationContext(), LuasSgtg.class);
+
+                        startActivity(i);
                         return true;
                     case R.id.htg_kelling_item:
+
+                        Intent ii = new Intent(getApplicationContext(), KelilingSgtg.class);
+
+                        startActivity(ii);
                         return true;
                     default:
                         return false;
@@ -158,8 +181,16 @@ public class MenuHitungBDTR extends AppCompatActivity {
                 Toast.makeText(MenuHitungBDTR.this, item.getTitle(), Toast.LENGTH_SHORT).show();
                 switch (item.getItemId()) {
                     case R.id.htg_luas_item:
+
+                        Intent i = new Intent(getApplicationContext(), LuasTrapesm.class);
+
+                        startActivity(i);
                         return true;
                     case R.id.htg_kelling_item:
+
+                        Intent ii = new Intent(getApplicationContext(), KelilingTrapesm.class);
+
+                        startActivity(ii);
                         return true;
                     default:
                         return false;

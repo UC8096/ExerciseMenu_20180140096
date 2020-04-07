@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".KelilingPsg"></activity>
+        <activity android:name=".KelilingTrapesm"></activity>
+        <activity android:name=".LuasTrapesm" />
+        <activity android:name=".KelilingSgtg" />
+        <activity android:name=".LuasSgtg" />
+        <activity android:name=".KelilingPsgPjg" />
+        <activity android:name=".LuasPsgPjg" />
+        <activity android:name=".KelilingLingkrn" />
+        <activity android:name=".LuasLingkrn" />
+        <activity android:name=".KelilingPsg" />
         <activity android:name=".LuasPsg" />
         <activity android:name=".MenuHitungBDTR" />
         <activity android:name=".MainActivity">

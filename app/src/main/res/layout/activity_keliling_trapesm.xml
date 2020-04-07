@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LuasPsg">
+    tools:context=".KelilingTrapesm">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,12 +21,12 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imgPsg"
+                    android:id="@+id/imgTrapsm"
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="false"
-                    android:src="@drawable/persegi">
+                    android:src="@drawable/trapesium">
 
                 </ImageView>
             </RelativeLayout>
@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/luasPsg"
+                    android:text="@string/klilingTrpsm"
                     android:textSize="25dp"
                     android:textStyle="bold"
 
@@ -57,10 +57,19 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
                     android:paddingBottom="10dp"
-                    android:text="@string/msknSisi"
+                    android:text="@string/mskn_AB"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/titik2"
                     android:textSize="20dp" />
 
                 <LinearLayout
@@ -71,7 +80,7 @@
                     >
 
                     <EditText
-                        android:id="@+id/edMsknsisi"
+                        android:id="@+id/edMsknAB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:width="250dp">
@@ -82,6 +91,86 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/mskn_EF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/titik2"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/edMsknEF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:width="250dp">
+
+                    </EditText>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/mskn_AE"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/titik2"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/edMsknAE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:width="250dp">
+
+                    </EditText>
+                </LinearLayout>
+
+
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,7 +184,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/htg_luas"
+                    android:text="@string/htg_kliling"
                     android:textSize="22dp">
 
                 </Button>

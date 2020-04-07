@@ -28,5 +28,27 @@
     <string name="klilingPsg">Keliling Persegi</string>
     <string name="htg_kliling">HITUNG KELILING</string>
 
+    <string name="luaslngkrn">Luas Lingkaran</string>
+    <string name="klilinglngkrn">Keliling Lingkaran</string>
+    <string name="mskn_jari2">Masukkan Jari-Jari</string>
 
+    <string name="titik2">:</string>
+
+    <string name="luasPsgPjg">Luas Persegi Panjang</string>
+    <string name="klilingPsgPjg">Keliling Persegi Panjang</string>
+    <string name="mskn_pjg">Masukkan panjang</string>
+    <string name="mskn_lbr">Masukkan lebar</string>
+
+    <string name="luasSgtg">Luas Segitiga</string>
+    <string name="klilingSgtg">Keliling Segitiga</string>
+    <string name="mskn_als">Masukkan Alas</string>
+    <string name="mskn_tgi">Masukkan Tinggi</string>
+    <string name="mskn_ssM">Masukkan Sisi Miring</string>
+
+    <string name="luasTrpsm">Luas Trapesium</string>
+    <string name="klilingTrpsm">Keliling Trapesium</string>
+    <string name="mskn_AB">Masukkan Panjang AB</string>
+    <string name="mskn_AE">Masukkan Panjang AE</string>
+    <string name="mskn_EF">Masukkan Panjang EF</string>
+    <string name="mskn_t">Masukkan Panjang t</string>
 </resources>

@@ -8,21 +8,20 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class KelilingPsg extends AppCompatActivity {
+public class KelilingLingkrn extends AppCompatActivity {
 
     EditText esHtgluas;
     Button bttnHsl;
     TextView tvHsl;
 
-    String sisi;
+    String r;
 
-    double hsl;
+    double hsl, phi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_keliling_psg);
-
+        setContentView(R.layout.activity_keliling_lingkrn);
 
         esHtgluas = findViewById(R.id.edMsknsisi);
         bttnHsl = findViewById(R.id.bttn_hasil);
@@ -32,14 +31,15 @@ public class KelilingPsg extends AppCompatActivity {
         bttnHsl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sisi = esHtgluas.getText().toString();
+                r = esHtgluas.getText().toString();
+                phi = 3.14;
 
-                hsl = (Double.valueOf(sisi) + Double.valueOf(sisi) + Double.valueOf(sisi) + Double.valueOf(sisi));
 
-                tvHsl.setText("Keliling Persegi dengan sisi:" + sisi + "\nadalah: " + String.valueOf(hsl));
+                hsl = 2 * phi * Double.valueOf(r);
+
+                tvHsl.setText("Luas Lingkaran dengan jari-jari:" + r + "\nadalah: " + String.valueOf(hsl));
 
             }
         });
-
     }
 }

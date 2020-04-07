@@ -8,23 +8,24 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class KelilingPsg extends AppCompatActivity {
+public class LuasSgtg extends AppCompatActivity {
 
-    EditText esHtgluas;
+    EditText edA, edT;
     Button bttnHsl;
     TextView tvHsl;
 
-    String sisi;
+    String a, t;
 
     double hsl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_keliling_psg);
+        setContentView(R.layout.activity_luas_sgtg);
 
+        edA = findViewById(R.id.edMsknals);
+        edT = findViewById(R.id.edMskntgi);
 
-        esHtgluas = findViewById(R.id.edMsknsisi);
         bttnHsl = findViewById(R.id.bttn_hasil);
         tvHsl = findViewById(R.id.shw_hsl);
 
@@ -32,14 +33,14 @@ public class KelilingPsg extends AppCompatActivity {
         bttnHsl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sisi = esHtgluas.getText().toString();
+                a = edA.getText().toString();
+                t = edT.getText().toString();
 
-                hsl = (Double.valueOf(sisi) + Double.valueOf(sisi) + Double.valueOf(sisi) + Double.valueOf(sisi));
+                hsl = (Double.valueOf(a) * Double.valueOf(t)) / 2;
 
-                tvHsl.setText("Keliling Persegi dengan sisi:" + sisi + "\nadalah: " + String.valueOf(hsl));
+                tvHsl.setText("Luas Segitiga dengan\nalas: " + a + " dan tinggi: " + t + " adalah:\n" + String.valueOf(hsl));
 
             }
         });
-
     }
 }
